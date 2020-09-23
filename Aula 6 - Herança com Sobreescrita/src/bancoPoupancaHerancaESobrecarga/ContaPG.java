@@ -11,7 +11,6 @@ public class ContaPG extends Conta{
 		float valorReal = valor2 + valor2*0.0001f;
 		return super.sacar(valorReal);
 	}
-	
 
 	public boolean sacar(float valor, float percentualImposto) {
 		float valorReal = valor + valor*percentualImposto;
